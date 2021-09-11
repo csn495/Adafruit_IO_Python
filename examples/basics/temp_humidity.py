@@ -28,16 +28,16 @@ from Adafruit_IO import Client, Feed
 DHT_READ_TIMEOUT = 5
 
 # Pin connected to DHT22 data pin
-DHT_DATA_PIN = 26
+DHT_DATA_PIN = 4
 
 # Set to your Adafruit IO key.
 # Remember, your key is a secret,
 # so make sure not to publish it when you publish this code!
-ADAFRUIT_IO_KEY = 'YOUR_AIO_KEY'
+ADAFRUIT_IO_KEY = 'aio_Keiw69KpfZaMfI2YlMHBjnSKz9t2'
 
 # Set to your Adafruit IO username.
 # (go to https://accounts.adafruit.com to find your username).
-ADAFRUIT_IO_USERNAME = 'YOUR_AIO_USERNAME'
+ADAFRUIT_IO_USERNAME = 'csn495'
 
 # Create an instance of the REST client.
 aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
