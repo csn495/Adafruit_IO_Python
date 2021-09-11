@@ -58,7 +58,12 @@ while True:
         humidity = '%.2f'%(humidity)
         aio.send(temperature_feed.key, str(temperature))
         aio.send(humidity_feed.key, str(humidity))
+
+        aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
+        feeds = aio.feeds()
+        print(feeds)
     else:
         print('Failed to get DHT22 Reading, trying again in ', DHT_READ_TIMEOUT, 'seconds')
     # Timeout to avoid flooding Adafruit IO
     time.sleep(DHT_READ_TIMEOUT)
+
