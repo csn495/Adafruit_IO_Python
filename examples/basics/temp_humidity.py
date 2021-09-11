@@ -33,11 +33,11 @@ DHT_DATA_PIN = 4
 # Set to your Adafruit IO key.
 # Remember, your key is a secret,
 # so make sure not to publish it when you publish this code!
-ADAFRUIT_IO_KEY = 'aio_HTKo67S5da9QLJvIVtyzGQh241aQ'
+ADAFRUIT_IO_KEY = 'insert api key here using nano on raspi'
 
 # Set to your Adafruit IO username.
 # (go to https://accounts.adafruit.com to find your username).
-ADAFRUIT_IO_USERNAME = 'csn495'
+ADAFRUIT_IO_USERNAME = 'insert username here using nano on raspi'
 
 # Create an instance of the REST client.
 aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
