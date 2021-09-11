@@ -43,8 +43,8 @@ ADAFRUIT_IO_USERNAME = 'csn495'
 aio = Client(ADAFRUIT_IO_USERNAME, ADAFRUIT_IO_KEY)
 
 # Set up Adafruit IO Feeds.
-temperature_feed = aio.feeds('temperature')
-humidity_feed = aio.feeds('humidity')
+temperature_feed = aio.feeds('Temperature')
+humidity_feed = aio.feeds('Humidity')
 
 # Set up DHT22 Sensor.
 dht22_sensor = Adafruit_DHT.DHT22
